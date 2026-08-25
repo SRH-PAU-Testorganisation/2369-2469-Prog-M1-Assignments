@@ -1,11 +1,12 @@
 void main()
 {
-    int start = 10;
+    int number = 10;
     IO.println("| Zahl | mal Zwei |");
     IO.println("|------|----------|");
-    while (start <= 30)
+    while (number <= 30)
     {
-        IO.println("|    " + start + " |         " + (start * 2) + " |");
-        start++;
+        int num_doubled = number * 2;
+        IO.println("|   " + number + " |       " + num_doubled + " |");
+        number++;
     }
 }

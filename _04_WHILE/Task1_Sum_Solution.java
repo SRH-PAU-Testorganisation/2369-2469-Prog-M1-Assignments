@@ -1,12 +1,12 @@
 void main()
 {
     int sum = 0;
-    int num = 1;
-    while (num <= 100)
+    int number = 1;
+    while (number <= 100)
     {
-        sum += num;
-        IO.println("Durchlauf Nr. " + num + " => " + sum);
-        num++;
+        sum += number;
+        IO.println("Durchlauf Nr. " + number + " => " + sum);
+        number++;
     }
 
     IO.println("Endergebnis: " + sum);
